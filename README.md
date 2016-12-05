@@ -16,3 +16,9 @@ Git installeren
 Account aanmaken
 Ga naar: https://github.com/
 
+# Configuratie
+
+Voer dit uit in bash:
+
+*$ git config --global user.name "Jou Naam"*
+*$ git config --global user.email "email@email.nl"*

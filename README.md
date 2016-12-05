@@ -1,4 +1,4 @@
-# githubtutorial
+# git tutorial
 
 # Algemeen
 
@@ -20,5 +20,25 @@ Ga naar: https://github.com/
 
 Voer dit uit in bash:
 
-*$ git config --global user.name "Jou Naam"*
-*$ git config --global user.email "email@email.nl"*
+- *$ git config --global user.name "Jou Naam"*
+- *$ git config --global user.email "email@email.nl"*
+
+# Repository aanmaken
+
+Maak een nieuwe map en voer dit uit om een nieuwe repository aan te maken.
+- *git init*
+
+Een lokale repository kan je met dit binnen halen:
+- *git clone /path/to/repository*
+
+Als je git server niet lokaal staat moet je dit uitvoeren:
+- *git clone gebruikersnaam@host:/path/to/repository*
+
+# Werkwijze
+
+Je lokale repository bestaat uit 3 verschillende 'trees' beheerd door git.
+- Je Working Directory waarin je bestanden staan.
+- Je Index dat zich als tussen stadium gedraagt.
+- Je HEAD die verwijst naar de laatste 'commit' die je hebt gemaakt.
+
+
